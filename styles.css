@@ -1,23 +1,24 @@
-.main {
+/* CSS Styles*/
+
+#main {
 background-color: rgb(191, 159, 221);
 color:rgb(182, 110, 16)
 }
-.title {
+#title {
 color:rgb(182, 110, 16)
 }
-.img-div {
+#img-div {
 background-color: royalblue;
 }
-.image {
-height: 500px;
-width: 500px;
+#image {
+
 }
-.img-caption {
+#img-caption {
 color:sandybrown;
 }
-.tribute-info {
+#tribute-info {
 color: seagreen;
 }
-.tribute-link {
+#tribute-link {
 color: seagreen;
 } 
