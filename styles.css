@@ -2,23 +2,41 @@
 
 #main {
 background-color: rgb(191, 159, 221);
-color:rgb(182, 110, 16)
+color:rgb(182, 110, 16);
+text-align: center;
+display: flex;
+flex: auto;
+flex-direction: column;
 }
 #title {
 color:rgb(182, 110, 16)
 }
 #img-div {
 background-color: royalblue;
+border: 10px;
+border-color: oldlace;
+display: flex;
+flex-direction: column;
 }
 #image {
-
+max-width: 100%;
+display: block;
+height: auto;
+margin: auto;
 }
 #img-caption {
 color:sandybrown;
 }
 #tribute-info {
 color: seagreen;
+background-color: navy;
+border-radius: 100;
 }
 #tribute-link {
 color: seagreen;
 } 
+li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+}
